@@ -27,7 +27,7 @@
 		right: 15px; 
 	}
 
-	#viewport #ruler {
+#viewport #ruler {
   background: -webkit-linear-gradient(right, #FFF 1px, transparent 1px);
 	background: -moz-linear-gradient(right, #FFF 1px, transparent 1px);
 	background: -o-linear-gradient(right, #FFF 1px, transparent 1px);
@@ -36,10 +36,10 @@
 	-webkit-background-size: 100px;
 	-moz-background-size: 100px;
 	background-size: 100px;
-	top: -90px;
-	width: 100%;
 	height: 100px;
 	position: absolute;
+	top: -90px;
+	width: 100%;
 	z-index: 999;
 }
 
@@ -53,10 +53,10 @@
 	-moz-background-size: 10px;
 	background-size: 10px;
 	display: block;
-	top: -905px;
-	width: 100%;
 	height: 1000px;
 	position: relative;
+	top: -905px;
+	width: 100%;
 	z-index: 999;
 }
 
