@@ -1,24 +1,28 @@
 /*
 
- Javascript for debug media queries - by cleatsandcode
- 
- This requires Jquery loaded before this script. Toggle the visiblity of the info using the "t" key.
- 
- Inspired by Johan Brook's css
- 
- Enjoy!
- 
+ Originally developed by: cleatsandcode
+ Modified by: Branden Silva (www.brandensilva.com)
+
  */
 
 $('body').prepend("<div id='viewportInfo'><div id='sizeInfo'></div></div>");
-$('#sizeInfo').text('Viewport (Width : '
-                + $(window).width() + ' , Height :' + $(window).height() + ' )');
-    $(window).resize(function () {
-		$('#sizeInfo').text('Viewport (Width : ' + $(window).width() 
-                                 + ' , Height :' + $(window).height() + ' )');
-    });
+
+	$viewport = $('#viewport');
+	$sizeinfo = $('#sizeInfo');
+
+	$sizeinfo.html('Viewport (Width : ' + $(window).width() + ' , Height :' + $(window).height() + ' )');
+    
+  $(window).resize(function () {
+
+		$sizeinfo.text('Viewport (Width : ' + $(window).width() + ' , Height :' + $(window).height() + ' )');
+  
+  });
+
+// Toggles tool on and off by using the "T" key.
 $(document).keydown(function (e) {
+    
     if (e.keyCode == 84 ) {
-         $("#viewportInfo").toggle();
+         $viewport.toggle();
     }
+
 });
