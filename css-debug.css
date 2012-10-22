@@ -8,6 +8,8 @@
 
 */
 
+
+/* Required */
 #viewport {
 	background-color: rgba(0, 0, 0, 1); 
 	color: #FFF;
@@ -26,9 +28,10 @@
 	float: right; 
 	position: relative; 
 	right: 30px;
-}
+} 
+/* End Required */
 	
-/*Normal Screens*/
+/* Normal Screens */
 @media only screen and (min-width: 1025px) {
 	body::before {
 		color: #FFF;
@@ -49,9 +52,10 @@
 	#viewport {
 		background-color: rgba(0, 0, 0, 1);
 	}
-}
+} /* End Normal Screens */
 
-/*Tablet Landscape*/
+
+/* Tablet Landscape */
 @media only screen and (min-width: 900px) and (max-width: 1024px) {
 	body::before {
 		color: #FFF;
@@ -67,14 +71,14 @@
 		text-align: center;
 		top: 0;
 		z-index: 99;
-	}
+	} 
 
 	#viewport {
 		background-color: rgba(28, 102, 176, 1);
 	}
-}
+} /* End Tablet Landscape */
 
-/*Tablet Portrait*/
+/* Tablet Portrait */
 @media only screen and (min-width: 768px) and (max-width: 899px) {
 	body::before {
 		color: #FFF;
@@ -95,7 +99,7 @@
 	#viewport { 
 		background-color: rgba(28, 149, 176, 1);
 	}
-}
+} /* End Tablet Protrait */
 
 /*Mobile*/
 @media only screen and (max-width: 767px) {
@@ -118,4 +122,4 @@
 	#viewport {
 		background-color: rgba(186, 15, 15, 1);
 	}
-}
+} /* End Mobile*/
