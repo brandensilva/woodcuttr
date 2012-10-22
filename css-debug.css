@@ -1,35 +1,33 @@
 /*
-
   Originally written by: cleatsandcode
   Modified by: Branden Silva (www.brandensilva.com)
   
   All sizes provided are merely rough guides for devices.
   Feel free to customise, add and remove as needed.
-
 */
 
 
-/* Required */
+/* Required CSS */
 #viewport {
-	background-color: rgba(0, 0, 0, 1); 
-	color: #FFF;
-	font-family: Helvetica, Arial, sans-serif; 
-	font-size: 10px; 
-	left: 0px;
-	line-height: 25px; 
-	margin: 0 auto;
-	min-height: 25px; 
-	position: absolute; 
-	top: 0px; 
-	width: 100%; 
-}
+		color: #FFF; 
+		font-family: Helvetica, Arial, sans-serif; 
+		font-size: 0.9em; 
+		height: 50px;
+		left: 0;
+		line-height: 50px;
+		margin: 0 auto;
+		min-width: 320px;
+		position: fixed; 
+		top: 0; 
+		width: 100%; 
+	}
 
 #sizeInfo {
-	float: right; 
-	position: relative; 
-	right: 30px;
-} 
-/* End Required */
+		float: right; 
+		position: absolute; 
+		right: 15px; 
+	}
+/* End of Required */
 	
 /* Normal Screens */
 @media only screen and (min-width: 1025px) {
@@ -101,7 +99,7 @@
 	}
 } /* End Tablet Protrait */
 
-/*Mobile*/
+/* Mobile */
 @media only screen and (max-width: 767px) {
 	body::before{
 		color: #FFF;
@@ -122,4 +120,4 @@
 	#viewport {
 		background-color: rgba(186, 15, 15, 1);
 	}
-} /* End Mobile*/
+} /* End Mobile */
