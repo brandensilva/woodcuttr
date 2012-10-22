@@ -9,7 +9,7 @@
 */
 
 #viewportInfo {
-	font-family: sans-serif; 
+	font-family: Helvetica, Arial, sans-serif; 
 	font-size: 10px; 
 	position: absolute; 
 	top: 0px; 
@@ -40,7 +40,7 @@
 		left: 0;
 		right: 0;
 		z-index: 99;
-		font-family: sans-serif; 
+		font-family: Helvetica, Arial, sans-serif; 
 		font-size: 12px; 
 		line-height: 25px; 
 		color: #fff;
@@ -63,7 +63,7 @@
 		left: 0;
 		right: 0;
 		z-index: 99;
-		font-family: sans-serif; 
+		font-family: Helvetica, Arial, sans-serif; 
 		font-size: 12px; 
 		line-height: 25px; 
 		color: #fff;
@@ -86,7 +86,7 @@
 		left: 0;
 		right: 0;
 		z-index: 99;
-		font-family: sans-serif; 
+		font-family: Helvetica, Arial, sans-serif; 
 		font-size: 12px; 
 		line-height: 25px; 
 		color: #fff;
@@ -104,7 +104,7 @@
 		font-weight: bold;
 		display: block;
 		text-align: left;
-		font-family: sans-serif; 
+		font-family: Helvetica, Arial, sans-serif; 
 		line-height; 
 		font-size: 12px; 
 		line-height: 25px; 
