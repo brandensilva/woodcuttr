@@ -8,24 +8,24 @@
 
 /* Required CSS */
 #viewport {
-		color: #FFF; 
-		font-family: Helvetica, Arial, sans-serif; 
-		font-size: 0.9em; 
-		height: 50px;
-		left: 0;
-		line-height: 50px;
-		margin: 0 auto;
-		min-width: 320px;
-		position: fixed; 
-		top: 0; 
-		width: 100%; 
-	}
+	color: #FFF; 
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 0.9em; 
+	height: 50px;
+	left: 0;
+	line-height: 50px;
+	margin: 0 auto;
+	min-width: 320px;
+	position: fixed; 
+	top: 0; 
+	width: 100%; 
+}
 
 #sizeInfo {
-		float: right; 
-		position: absolute; 
-		right: 15px; 
-	}
+	float: right; 
+	position: absolute; 
+	right: 15px; 
+}
 
 #viewport #ruler {
   background: -webkit-linear-gradient(right, #FFF 1px, transparent 1px);
@@ -208,16 +208,16 @@
 @media only screen and (min-width: 768px) and (max-width: 899px) {
 	
 	#viewport::before {
-			color: #FFF;
-			content: "Tablets Portrait: 768px - 899px";
-			font-family: Helvetica, Arial, sans-serif; 
-			font-weight: bold;
-		  left: 15px;
-			line-height: 50px;
-			position: absolute;
-			top: 0;
-			z-index: 99;
-		}
+		color: #FFF;
+		content: "Tablets Portrait: 768px - 899px";
+		font-family: Helvetica, Arial, sans-serif; 
+		font-weight: bold;
+	  left: 15px;
+		line-height: 50px;
+		position: absolute;
+		top: 0;
+		z-index: 99;
+	}
 			
 	#viewport { background-color: rgba(28, 149, 176, 1); }
 
@@ -228,16 +228,16 @@
 @media only screen and (min-width: 481px) and (max-width: 767px) {
 	
 	#viewport::before {
-			color: #FFF;
-			content: "Mobile: 481px - 767px";
-			font-family: Helvetica, Arial, sans-serif;
-			font-weight: bold;
-			left: 15px;
-			line-height: 50px;
-			position: absolute;
-			top: 0;
-			z-index: 99;
-		}
+		color: #FFF;
+		content: "Mobile: 481px - 767px";
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		left: 15px;
+		line-height: 50px;
+		position: absolute;
+		top: 0;
+		z-index: 99;
+	}
 
 	#viewport { background-color: rgba(145, 81, 13, 1); }
 
@@ -248,17 +248,17 @@
 @media only screen and (min-width: 321px) and (max-width: 480px) {
 	
 	#viewport::before {
-			color: #FFF;
-			content: "Mobile Landscape: 321px - 480px";
-			font-family: Helvetica, Arial, sans-serif;
-			font-weight: normal;
-			left: 15px;
-			line-height: 50px;
-			min-width: 320px;
-			position: absolute;
-			top: 0;
-			z-index: 99;
-		}
+		color: #FFF;
+		content: "Mobile Landscape: 321px - 480px";
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: normal;
+		left: 15px;
+		line-height: 50px;
+		min-width: 320px;
+		position: absolute;
+		top: 0;
+		z-index: 99;
+	}
 
 	#viewport { background-color: rgba(204, 115, 20, 1); }
 
@@ -268,17 +268,17 @@
 @media only screen and (max-width: 320px) {
 	
 	#viewport::before {
-			color: #FFF;
-			content: "Mobile Portrait < 320px";
-			font-family: Helvetica, Arial, sans-serif;
-			font-weight: normal;
-			left: 15px;
-			line-height: 50px;
-			min-width: 320px;
-			position: absolute;
-			top: 0;
-			z-index: 99;
-		}
+		color: #FFF;
+		content: "Mobile Portrait < 320px";
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: normal;
+		left: 15px;
+		line-height: 50px;
+		min-width: 320px;
+		position: absolute;
+		top: 0;
+		z-index: 99;
+	}
 
 	#viewport { background-color: rgba(186, 10, 15, 1); }
 
