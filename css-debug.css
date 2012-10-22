@@ -9,14 +9,15 @@
 */
 
 #viewport {
-	background-color: rgba(0, 0, 0, 0.5); 
+	background-color: rgba(0, 0, 0, 1); 
+	color: #FFF;
 	font-family: Helvetica, Arial, sans-serif; 
 	font-size: 10px; 
-	position: absolute; 
 	left: 0px;
 	line-height: 25px; 
 	margin: 0 auto;
 	min-height: 25px; 
+	position: absolute; 
 	top: 0px; 
 	width: 100%; 
 }
@@ -46,14 +47,14 @@
 	}
 
 	#viewport {
-		background-color: rgba(0, 0, 0, 0.5);
+		background-color: rgba(0, 0, 0, 1);
 	}
 }
 
 /*Tablet Landscape*/
 @media only screen and (min-width: 900px) and (max-width: 1024px) {
 	body::before {
-		color: #fff;
+		color: #FFF;
 		content: "Tablet landscape media query (900 - 1024) active";
 		display: block;
 		font-family: Helvetica, Arial, sans-serif; 
@@ -69,14 +70,14 @@
 	}
 
 	#viewport {
-		background-color: rgba(28, 102, 176, 0.5);
+		background-color: rgba(28, 102, 176, 1);
 	}
 }
 
 /*Tablet Portrait*/
 @media only screen and (min-width: 768px) and (max-width: 899px) {
 	body::before {
-		color: #fff;
+		color: #FFF;
 		content: "Tablet portrait media query (768 - 899) active";
 		display: block;
 		font-family: Helvetica, Arial, sans-serif; 
@@ -92,14 +93,14 @@
 	}
 
 	#viewport { 
-		background-color: rgba(28, 149, 176, 0.5);
+		background-color: rgba(28, 149, 176, 1);
 	}
 }
 
 /*Mobile*/
 @media only screen and (max-width: 767px) {
 	body::before{
-		color: #fff;
+		color: #FFF;
 		content: "Mobile  (0 - 767) active";
 		display: block;
 		font-family: Helvetica, Arial, sans-serif; 
@@ -115,6 +116,6 @@
 	}
 
 	#viewport {
-		background-color: rgba(186, 15, 15, 0.5);
+		background-color: rgba(186, 15, 15, 1);
 	}
 }
