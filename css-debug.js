@@ -9,6 +9,9 @@ $('body').prepend("<div id='viewport'><div id='sizeInfo'></div></div>");
 
 	$viewport = $('#viewport');
 	$sizeinfo = $('#sizeInfo');
+	$spacer = $('<div />').css('height', $viewport.outerHeight() - 8);
+
+	$viewport.before($spacer);
 
 	$sizeinfo.html('Viewport (Width : ' + $(window).width() + ' , Height :' + $(window).height() + ' )');
     
