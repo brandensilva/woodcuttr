@@ -14,7 +14,7 @@ $('body').prepend("<div id='viewportInfo'><div id='sizeInfo'></div></div>");
     
   $(window).resize(function () {
 
-		$sizeinfo.text('Viewport (Width : ' + $(window).width() + ' , Height :' + $(window).height() + ' )');
+		$sizeinfo.html('Viewport (Width : ' + $(window).width() + ' , Height :' + $(window).height() + ' )');
   
   });
 
