@@ -5,7 +5,7 @@
 
  */
 
-$('body').prepend("<div id='viewportInfo'><div id='sizeInfo'></div></div>");
+$('body').prepend("<div id='viewport'><div id='sizeInfo'></div></div>");
 
 	$viewport = $('#viewport');
 	$sizeinfo = $('#sizeInfo');
