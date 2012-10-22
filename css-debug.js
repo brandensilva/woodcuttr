@@ -13,11 +13,11 @@ $('body').prepend("<div id='viewport'><div id='sizeInfo'></div></div>");
 
 	$viewport.before($spacer);
 
-	$sizeinfo.html('Viewport (Width : ' + $(window).width() + ' , Height :' + $(window).height() + ' )');
+	$sizeinfo.html($(window).width() + 'px &#9666;&#9656;');
     
   $(window).resize(function () {
 
-		$sizeinfo.html('Viewport (Width : ' + $(window).width() + ' , Height :' + $(window).height() + ' )');
+		 $sizeinfo.html($(window).width() + 'px &#9666;&#9656;');
   
   });
 
@@ -26,6 +26,7 @@ $(document).keydown(function (e) {
     
     if (e.keyCode == 84 ) {
          $viewport.toggle();
+         $spacer.toggle();
     }
 
 });
