@@ -16,4 +16,4 @@ The css file is designed to be manipulated as needed. Add your specific styles w
 
 #####Before the closing body tag:
 
-	<script src="css-debug.min.js"></script>
+	<script src="css-debug.js"></script>
