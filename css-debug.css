@@ -9,41 +9,40 @@
 */
 
 #viewport {
+	background-color: rgba(0, 0, 0, 0.5); 
 	font-family: Helvetica, Arial, sans-serif; 
 	font-size: 10px; 
 	position: absolute; 
-	top: 0px; 
 	left: 0px;
-	width: 100%; 
-	min-height: 25px; 
-	display: block;
-	background-color: rgba(0, 0, 0, 0.5); 
 	line-height: 25px; 
 	margin: 0 auto;
+	min-height: 25px; 
+	top: 0px; 
+	width: 100%; 
 }
 
 #sizeInfo {
-	position: relative; 
 	float: right; 
+	position: relative; 
 	right: 30px;
 }
 	
 /*Normal Screens*/
 @media only screen and (min-width: 1025px) {
 	body::before {
+		color: #FFF;
 		content: "Normal Screen (> 1024) active";
-		font-weight: bold;
 		display: block;
-		text-align: center;
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		z-index: 99;
 		font-family: Helvetica, Arial, sans-serif; 
 		font-size: 12px; 
+		font-weight: bold;
+		left: 0;
 		line-height: 25px; 
-		color: #fff;
+		position: absolute;
+		right: 0;
+		text-align: center;
+		top: 0;
+		z-index: 99;
 	}
 
 	#viewport {
@@ -54,19 +53,19 @@
 /*Tablet Landscape*/
 @media only screen and (min-width: 900px) and (max-width: 1024px) {
 	body::before {
+		color: #fff;
 		content: "Tablet landscape media query (900 - 1024) active";
-		font-weight: bold;
 		display: block;
-		text-align: center;
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		z-index: 99;
 		font-family: Helvetica, Arial, sans-serif; 
 		font-size: 12px; 
+		font-weight: bold;
+		left: 0;
 		line-height: 25px; 
-		color: #fff;
+		position: absolute;
+		right: 0;
+		text-align: center;
+		top: 0;
+		z-index: 99;
 	}
 
 	#viewport {
@@ -77,19 +76,19 @@
 /*Tablet Portrait*/
 @media only screen and (min-width: 768px) and (max-width: 899px) {
 	body::before {
+		color: #fff;
 		content: "Tablet portrait media query (768 - 899) active";
-		font-weight: bold;
 		display: block;
-		text-align: center;
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		z-index: 99;
 		font-family: Helvetica, Arial, sans-serif; 
 		font-size: 12px; 
+		font-weight: bold;
+		left: 0;
 		line-height: 25px; 
-		color: #fff;
+		position: absolute;
+		right: 0;
+		text-align: center;
+		top: 0;
+		z-index: 99;
 	}
 
 	#viewport { 
@@ -100,19 +99,18 @@
 /*Mobile*/
 @media only screen and (max-width: 767px) {
 	body::before{
-		content: "Mobile  (0 - 767) active";
-		font-weight: bold;
-		display: block;
-		text-align: left;
-		font-family: Helvetica, Arial, sans-serif; 
-		line-height; 
-		font-size: 12px; 
-		line-height: 25px; 
 		color: #fff;
-		position: absolute;
-		top: 0;
+		content: "Mobile  (0 - 767) active";
+		display: block;
+		font-family: Helvetica, Arial, sans-serif; 
+		font-weight: bold;
+		font-size: 12px; 
 		left: 0;
+		line-height: 25px; 
+		position: absolute;
 		right: 0;
+		text-align: left;
+		top: 0;
 		z-index: 99;
 	}
 
