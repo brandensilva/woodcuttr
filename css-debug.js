@@ -12,7 +12,7 @@ $(window).load(function() {
 	offset = 15;
 	$viewport = $('#viewport');
 	$sizeinfo = $('#sizeInfo');
-	$spacer = $('<div />').css('height', $viewport.outerHeight() - 8);
+	$spacer = $('<div />').css('height', $viewport.outerHeight());
 
 	$viewport.before($spacer);
 
