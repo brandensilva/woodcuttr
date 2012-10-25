@@ -1,19 +1,73 @@
-Media-Queries-Debug-Tools
+Wood Cuttr: The CSS Media Query Assistant
 =========================
 
-A simple js/css debug kit for media queries which is easy to use.
+##Popular Breakpoints
 
-Simply include the css in your header, and the js before the closing body tag (after a version of jQuery is loaded) and viola!
+Wood Cuttr supports media query breakpoints for many popular devices.
 
-The css file is designed to be manipulated as needed. Add your specific styles within the set queries and edit the params as needed.
+Whether it be phones, tablets, desktops or tvs, Wood Cuttr will assist you in your responsive web design layout.
 
-###You can also toggle visiblity with the "T" key.
+##Portrait & Landscape Modes
 
-#####Example config within the head tag:
+Wood Cuttr supports both portrait and landscape modes for mobile devices.
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css-debug.css" />
+Supported resolutions go all the way up to 4096 pixels for the tv variant.
 
-#####Before the closing body tag:
 
-	<script src="css-debug.js"></script>
+##Avoid Visual Clutter
+
+Don’t let Wood Cuttr annoy your perfect bird’s eye view of your design. You can toggle the tool on or off by pressing the letter T key on your keyboard.
+
+By default Wood Cuttr is toggled on when you drag it into your projects.
+
+
+##Colorful Guides & Ruler
+
+Wood Cuttr shifts its colors depending on what breakpoint you hit, making it easy to see which device you are on.
+
+You also have a ruler at your disposal for more pixel accuracy.
+
+
+##Screw Default Stuff
+
+We thought some of you might say that. So we have included a few other styles for you to play with.
+
+These styles are a good starting point but we recommend customizing your own flavor and factor in content, devices, and your audience.
+
+##Preferred Browsers
+* IE9 or newer
+* Firefox 3.6 or newer
+* Chrome 10 or newer
+* Safari 5.1 or newer
+* Opera 11.6 or newer
+
+Any other browser that supports media queries and linear gradients should work.
+
+##Supported Devices
+* All iPad & iPhone Models
+* Popular Android Devices
+* Standard TV Screens
+* Common Desktop Sizes
+* and more...
+
+Includes popular smart devices and standards since the iPhone release.
+
+##How To Setup Wood Cuttr
+
+Getting up and running is simple!
+
+Drag the wc-default.css (or one of the custom provided ones like wc-apple.css) file into your css folder and add the following line of code to the head section in your HTML file:
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/wc-default.css" />
+	</head>
+
+Lastly drag the woodcuttr-1.0.min.js and the jquery-1.8.2.min.js into your js folder and add the following line of code just before the end body tag in your HTML file like so:
+
+	<body>
+		// other code
+		<script src="js/jquery-1.8.2.min.js"> </script>
+		<script src="js/woodcuttr-1.0.min.js"> </script>
+	</body>
+
+Just make sure jQuery comes before Wood Cuttr and your done. Don't forget to remove these files before you launch your web site. You wouldn't want your users toggling this on and off on accident; how embarrassing!
