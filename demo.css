@@ -27,7 +27,7 @@ header #logo {
 }
 
 h3 {
-	font-size: 1em;
+	font-size: 1.1em;
 	font-weight: 600;
 	text-transform: uppercase;
 	padding: 0 0 20px 0;
@@ -94,7 +94,7 @@ a:hover, a:active {
 }
 
 #default .default {
-	padding: 40px 0 0 0;
+	padding: 60px 0 0 0;
 	text-align: center;
 }
 
