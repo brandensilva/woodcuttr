@@ -5,7 +5,7 @@
 	This file contains a mixture of mobile, tablet, desktop, and television
 	media queries. It's merely a guideline to get started. 
 
-	We highly recommend that you use media query breakpoints which looks best 
+	We highly recommend that you use media query breakpoints which look best 
 	with your content and targets your users. This template is here to get you
 	started but please don't hesitate to tweak or build your own flavor.
 */
@@ -131,7 +131,7 @@
 		top: 0;
 	}
 		
-	#viewport { background-color: rgba(75, 175, 105, 1); }
+	#viewport { background-color: rgba(24, 127, 150, 1); }
 
 } /* End Medium Desktop Media Query */
 
