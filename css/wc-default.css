@@ -1,0 +1,285 @@
+/*
+
+	Originally developed by: cleatsandcode.
+	Modified by: Branden Silva (www.brandensilva.com)
+
+*/
+
+
+/* Required CSS */
+#viewport {
+	color: #FFF; 
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 15px; 
+	height: 50px;
+	left: 0;
+	line-height: 50px;
+	margin: 0 auto;
+	min-width: 320px;
+	position: fixed; 
+	top: 0; 
+	width: 100%; 
+}
+
+#sizeInfo {
+	float: right; 
+	position: absolute; 
+	right: 15px; 
+}
+
+#viewport #ruler {
+  background: -webkit-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -moz-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -o-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -ms-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: linear-gradient(right, #FFF 1px, transparent 1px);
+	-webkit-background-size: 100px;
+	-moz-background-size: 100px;
+	background-size: 100px;
+	height: 100px;
+	position: absolute;
+	top: -90px;
+	width: 100%;
+	z-index: 999;
+}
+
+#viewport #ruler .small {
+  background: -webkit-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -moz-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -o-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -ms-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: linear-gradient(right, #FFF 1px, transparent 1px);
+	-webkit-background-size: 10px;
+	-moz-background-size: 10px;
+	background-size: 10px;
+	display: block;
+	height: 1000px;
+	position: relative;
+	top: -905px;
+	width: 100%;
+	z-index: 999;
+}
+
+/* End of Required */
+
+/* 
+  Media Queries: Organized from largest to smallest. 
+  Free free to modify and make your own flavors.
+*/
+
+/* Dual Monitors or Dual TVs: 4096px or greater */
+@media only screen and (min-width: 4097px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "Dual Monitors or Dual TVs: 4097px or greater";
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		left: 15px;
+		line-height: 50px;
+		position: absolute;
+		top: 0;
+		z-index: 99;
+	}
+		
+	#viewport { background-color: rgba(0, 0, 0, 1); }
+
+} /* Dual Monitors or Dual TVs Media Query */
+
+/* 4K TV: 2561px - 4096px */
+@media only screen and (min-width: 2561px) and (max-width: 4096px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "4K TV: 2561px to 4096px";
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		left: 15px;
+		line-height: 50px;
+		position: absolute;
+		top: 0;
+		z-index: 99;
+	}
+		
+	#viewport { background-color: rgba(175, 160, 75, 1); }
+
+} /* End 4K TV Media Query */
+
+/* Large Desktop: 1601px - 2560px */
+@media only screen and (min-width: 1601px) and (max-width: 2560px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "Large Desktop: 1601px to 2560px";
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		left: 15px;
+		line-height: 50px;
+		position: absolute;
+		top: 0;
+		z-index: 99;
+	}
+		
+	#viewport { background-color: rgba(13, 113, 0, 1); }
+
+} /* End Large Desktop Media Query */
+
+
+/* Medium Desktop: 1201px - 1600px */
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "Medium Desktop: 1201px to 1600px";
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		left: 15px;
+		line-height: 50px;
+		position: absolute;
+		top: 0;
+		z-index: 99;
+	}
+		
+	#viewport { background-color: rgba(75, 175, 105, 1); }
+
+} /* End Medium Desktop Media Query */
+
+
+/* Small Desktop: 1025px - 1200px */
+@media only screen and (min-width: 1081px) and (max-width: 1200px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "Small Desktop: 1081px - 1200px";
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		left: 15px;
+		line-height: 50px;
+		position: absolute;
+		top: 0;
+		z-index: 99;
+	}
+		
+	#viewport { background-color: rgba(210, 13, 147, 1); }
+
+} /* End Small Desktop Media Query */
+
+/* 1080p TV: 1025px - 1080px */
+@media only screen and (min-width: 1025px) and (max-width: 1080px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "1080p TV: 1025px - 1080px";
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		left: 15px;
+		line-height: 50px;
+		position: absolute;
+		top: 0;
+		z-index: 99;
+	}
+		
+	#viewport { background-color: rgba(156, 75, 175, 1); }
+
+} /* End 1080p TV Media Query */
+
+
+/* Tablet Landscape: 900px to 1024px */
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "Tablet Landscape: 900px - 1024px";
+		font-family: Helvetica, Arial, sans-serif; 
+		font-weight: bold;
+	  left: 15px;
+		line-height: 50px;
+		position: absolute;
+		top: 0;
+		z-index: 99;
+	}
+
+	#viewport { background-color: rgba(28, 102, 176, 1); }
+
+} /* End Tablet Landscape Media Query */
+
+
+/* Tablet Portrait: 768px to 899px */
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "Tablets Portrait: 768px - 899px";
+		font-family: Helvetica, Arial, sans-serif; 
+		font-weight: bold;
+	  left: 15px;
+		line-height: 50px;
+		position: absolute;
+		top: 0;
+		z-index: 99;
+	}
+			
+	#viewport { background-color: rgba(24, 127, 150, 1); }
+
+} /* End Tablet Portrait Media Query */
+
+
+/* Mobile: 767px or less */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "Mobile: 481px - 767px";
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		left: 15px;
+		line-height: 50px;
+		position: absolute;
+		top: 0;
+		z-index: 99;
+	}
+
+	#viewport { background-color: rgba(145, 81, 13, 1); }
+
+} /* End Mobile Media Query */
+
+
+/* Mobile Landscape: 321px - 480px */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "Mobile Landscape: 321px - 480px";
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: normal;
+		left: 15px;
+		line-height: 50px;
+		min-width: 320px;
+		position: absolute;
+		top: 0;
+		z-index: 99;
+	}
+
+	#viewport { background-color: rgba(204, 115, 20, 1); }
+
+} /* End Mobile Landscape Media Query */
+
+/* Mobile Portrait: 320px or less */
+@media only screen and (max-width: 320px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "Mobile Portrait < 320px";
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: normal;
+		left: 15px;
+		line-height: 50px;
+		min-width: 320px;
+		position: absolute;
+		top: 0;
+		z-index: 99;
+	}
+
+	#viewport { background-color: rgba(186, 10, 15, 1); }
+
+} /* End Mobile Portrait Media Query */
