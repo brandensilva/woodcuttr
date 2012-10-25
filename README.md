@@ -1,8 +1,9 @@
 Wood Cuttr: The CSS Media Query Assistant
 =========================
-www.woodcuttr.com
 
-##Popular Breakpoints
+Wood Cuttr is a simple CSS media query assistant that helps you with your responsive web design projects.
+
+###Popular Breakpoints
 
 Wood Cuttr supports media query breakpoints for many popular devices.
 
@@ -15,7 +16,7 @@ Wood Cuttr supports both portrait and landscape modes for mobile devices.
 Supported resolutions go all the way up to 4096 pixels for the tv variant.
 
 
-##Avoid Visual Clutter
+###Avoid Visual Clutter
 
 Don’t let Wood Cuttr annoy your perfect bird’s eye view of your design. You can toggle the tool on or off by pressing the letter T key on your keyboard.
 
@@ -29,7 +30,7 @@ Wood Cuttr shifts its colors depending on what breakpoint you hit, making it eas
 You also have a ruler at your disposal for more pixel accuracy.
 
 
-##Screw Default Stuff
+###Screw Default Stuff
 
 We thought some of you might say that. So we have included a few other styles for you to play with.
 
@@ -44,7 +45,7 @@ These styles are a good starting point but we recommend customizing your own fla
 
 Any other browser that supports media queries and linear gradients should work.
 
-##Supported Devices
+###Supported Devices
 * All iPad & iPhone Models
 * Popular Android Devices
 * Standard TV Screens
@@ -53,7 +54,7 @@ Any other browser that supports media queries and linear gradients should work.
 
 Includes popular smart devices and standards since the iPhone release.
 
-##How To Setup Wood Cuttr
+###How To Setup Wood Cuttr
 
 Getting up and running is simple!
 
