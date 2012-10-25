@@ -36,7 +36,7 @@ We thought some of you might say that. So we have included a few other styles fo
 
 These styles are a good starting point but we recommend customizing your own flavor and factor in content, devices, and your audience.
 
-##Preferred Browsers
+###Preferred Browsers
 * IE9 or newer
 * Firefox 3.6 or newer
 * Chrome 10 or newer
