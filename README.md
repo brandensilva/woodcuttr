@@ -9,7 +9,7 @@ Wood Cuttr supports media query breakpoints for many popular devices.
 
 Whether it be phones, tablets, desktops or tvs, Wood Cuttr will assist you in your responsive web design layout.
 
-##Portrait & Landscape Modes
+###Portrait & Landscape Modes
 
 Wood Cuttr supports both portrait and landscape modes for mobile devices.
 
@@ -23,7 +23,7 @@ Don’t let Wood Cuttr annoy your perfect bird’s eye view of your design. You 
 By default Wood Cuttr is toggled on when you drag it into your projects.
 
 
-##Colorful Guides & Ruler
+###Colorful Guides & Ruler
 
 Wood Cuttr shifts its colors depending on what breakpoint you hit, making it easy to see which device you are on.
 
