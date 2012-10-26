@@ -1,15 +1,18 @@
-/*
+/* ------------------------------------------------------------
+
 	Originally developed by: CleatsandCode.
 	Modified by: Branden Silva (www.brandensilva.com)
 
-	This file contains a mixture of mobile, tablet, and desktop media queries
-	for popular Apple products.
+	This file contains a mixture of mobile, tablet, 
+	and desktop media queries for popular Apple products.
 
-	We highly recommend that you use breakpoints which looks best 
-	with your content and targets your users. This template is here to get you
-	started but please don't hesitate to tweak or build your own flavor.
-*/
+	We highly recommend that you use media query breakpoints 
+	which look best with your content and targets your users. 
 
+	This template is here to get you started but please don't 
+	hesitate to tweak or build your own flavor.
+
+------------------------------------------------------------ */
 
 /* Required Wood Cuttr CSS */
 #viewport {
@@ -61,8 +64,7 @@
 	position: relative;
 	top: -905px;
 	width: 100%;
-}
-/* End of Required CSS */
+} /* End of Required CSS */
 
 /* --- Media Queries: Organized from largest to smallest. --- */
 
