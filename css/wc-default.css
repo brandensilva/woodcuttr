@@ -1,17 +1,22 @@
-/*
+/* ------------------------------------------------------------
+
 	Originally developed by: CleatsandCode.
-	Modified by: Branden Silva (www.brandensilva.com)
+	Enhanced by: Branden Silva (www.brandensilva.com)
 
-	This file contains a mixture of mobile, tablet, desktop, and television
-	media queries. It's merely a guideline to get started. 
+	This file contains a mixture of mobile, tablet, desktop,
+	and television media queries. It's merely a guideline 
+	to get started. 
 
-	We highly recommend that you use media query breakpoints which look best 
-	with your content and targets your users. This template is here to get you
-	started but please don't hesitate to tweak or build your own flavor.
-*/
+	We highly recommend that you use media query breakpoints 
+	which look best with your content and targets your users. 
+
+	This template is here to get you started but please don't 
+	hesitate to tweak or build your own flavor. 
+
+------------------------------------------------------------ */
 
 
-/* Required CSS */
+/* Required Wood Cuttr CSS */
 #viewport {
 	color: #FFF; 
 	font-family: Helvetica, Arial, sans-serif; 
@@ -60,197 +65,185 @@
 	position: relative;
 	top: -905px;
 	width: 100%;
-}
-
-/* End of Required */
+} /* End of Required CSS */
 
 /* --- Media Queries: Organized from largest to smallest. --- */
 
-/* Dual Monitors or Dual TVs: 4096px or greater */
+/* Dual Monitors or Dual TVs */
 @media only screen and (min-width: 4097px) {
 
 	#viewport::before {
 		color: #FFF;
 		content: "Dual Monitors or Dual TVs: 4097px or greater";
-		font-weight: bold;
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 		
 	#viewport { background-color: rgba(0, 0, 0, 1); }
 
-} /* Dual Monitors or Dual TVs Media Query */
+} 
 
-/* 4K TV: 2561px - 4096px */
+/* 4K TV */
 @media only screen and (min-width: 2561px) and (max-width: 4096px) {
 
 	#viewport::before {
 		color: #FFF;
-		content: "4K TV: 2561px to 4096px";
-		font-weight: bold;
+		content: "4K TV ≤ 4096px";
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 		
 	#viewport { background-color: rgba(175, 160, 75, 1); }
 
-} /* End 4K TV Media Query */
+} /* End 4K TV */
 
-/* Large Desktop: 1601px - 2560px */
-@media only screen and (min-width: 1601px) and (max-width: 2560px) {
+/* Large Desktop */
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
 
 	#viewport::before {
 		color: #FFF;
-		content: "Large Desktop: 1601px to 2560px";
-		font-weight: bold;
+		content: "Large Desktop ≤ 2560px";
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 		
 	#viewport { background-color: rgba(13, 113, 0, 1); }
 
-} /* End Large Desktop Media Query */
+} 
 
-
-/* Medium Desktop: 1201px - 1600px */
-@media only screen and (min-width: 1201px) and (max-width: 1600px) {
-
-	#viewport::before {
-		color: #FFF;
-		content: "Medium Desktop: 1201px to 1600px";
-		font-weight: bold;
-		left: 15px;
-		line-height: 50px;
-		position: absolute;
-		top: 0;
-	}
-		
-	#viewport { background-color: rgba(24, 127, 150, 1); }
-
-} /* End Medium Desktop Media Query */
-
-
-/* Small Desktop: 1025px - 1200px */
-@media only screen and (min-width: 1081px) and (max-width: 1200px) {
+/* 1080p TV */
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
 
 	#viewport::before {
 		color: #FFF;
-		content: "Small Desktop: 1081px - 1200px";
-		font-weight: bold;
+		content: "1080p TV ≤ 1920px";
 		left: 15px;
-		line-height: 50px;
-		position: absolute;
-		top: 0;
-	}
-		
-	#viewport { background-color: rgba(210, 13, 147, 1); }
-
-} /* End Small Desktop Media Query */
-
-/* 1080p TV: 1025px - 1080px */
-@media only screen and (min-width: 1025px) and (max-width: 1080px) {
-
-	#viewport::before {
-		color: #FFF;
-		content: "1080p TV: 1025px - 1080px";
-		font-weight: bold;
-		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 		
 	#viewport { background-color: rgba(156, 75, 175, 1); }
 
-} /* End 1080p TV Media Query */
+}
 
+/* Medium Desktop */
+@media only screen and (min-width: 1281px) and (max-width: 1600px) {
 
-/* Tablet Landscape: 900px to 1024px */
+	#viewport::before {
+		color: #FFF;
+		content: "Medium Desktop ≤ 1600px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+		
+	#viewport { background-color: rgba(24, 127, 150, 1); }
+
+} 
+
+/* 720p TV */
+@media only screen and (min-width: 1201px) and (max-width: 1280px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "720p TV ≤ 1280px";
+		left: 15px;
+		position: absolute;
+		top: 0px;
+	}
+		
+	#viewport { background-color: rgba(114, 118, 101, 1); }
+
+} 
+
+/* Small Desktop */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "Small Desktop ≤ 1200px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+		
+	#viewport { background-color: rgba(210, 13, 147, 1); }
+
+}
+
+/* Tablet Landscape */
 @media only screen and (min-width: 900px) and (max-width: 1024px) {
 
 	#viewport::before {
 		color: #FFF;
-		content: "Tablet Landscape: 900px - 1024px";
-		font-weight: bold;
+		content: "↔ Tablet ≤ 1024px";
 	  left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 
 	#viewport { background-color: rgba(28, 102, 176, 1); }
 
-} /* End Tablet Landscape Media Query */
+}
 
 
-/* Tablet Portrait: 768px to 899px */
+/* Tablet Portrait */
 @media only screen and (min-width: 768px) and (max-width: 899px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "Tablets Portrait: 768px - 899px";
-		font-weight: bold;
+		content: "↕ Tablet ≤ 899px";
 	  left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 			
 	#viewport { background-color: rgba(24, 127, 150, 1); }
 
-} /* End Tablet Portrait Media Query */
+}
 
 
-/* Mobile: 767px or less */
+/* Mobile */
 @media only screen and (min-width: 481px) and (max-width: 767px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "Mobile: 481px - 767px";
-		font-weight: bold;
+		content: "↔ ↕ Mobile ≤ 767px";
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 
 	#viewport { background-color: rgba(145, 81, 13, 1); }
 
-} /* End Mobile Media Query */
+}
 
 
-/* Mobile Landscape: 321px - 480px */
+/* Mobile Landscape */
 @media only screen and (min-width: 321px) and (max-width: 480px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "Mobile Landscape: 321px - 480px";
-		font-weight: normal;
+		content: "↔ Mobile ≤ 480px";
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 
 	#viewport { background-color: rgba(204, 115, 20, 1); }
 
-} /* End Mobile Landscape Media Query */
+}
 
-/* Mobile Portrait: 320px or less */
+/* Mobile Portrait */
 @media only screen and (max-width: 320px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "Mobile Portrait < 320px";
-		font-weight: normal;
+		content: "↕Mobile ≤ 320px";
 		left: 15px;
-		line-height: 50px;
 		min-width: 320px;
 		position: absolute;
 		top: 0;
@@ -258,4 +251,4 @@
 
 	#viewport { background-color: rgba(186, 10, 15, 1); }
 
-} /* End Mobile Portrait Media Query */
+}
