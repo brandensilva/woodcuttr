@@ -1,0 +1,266 @@
+/* ------------------------------------------------------------
+
+	Originally developed by: CleatsandCode.
+	Enhanced by: Branden Silva (www.brandensilva.com)
+
+	This file contains desktop and also a mixture of 
+	television media queries. It's merely a guideline to 
+	get started. 
+
+	We highly recommend that you use media query breakpoints 
+	which look best with your content and targets your users. 
+
+	This template is here to get you started but please don't 
+	hesitate to tweak or build your own flavor.
+
+------------------------------------------------------------ */
+
+/* Required Wood Cuttr CSS */
+#viewport {
+	color: #FFF; 
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 15px; 
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	min-width: 320px;
+	position: fixed; 
+	top: 0; 
+	width: 100%; 
+	z-index: 987654321;
+}
+
+#sizeInfo {
+	position: absolute; 
+	right: 15px; 
+}
+
+#viewport #ruler {
+  background: -webkit-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -moz-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -o-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -ms-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: linear-gradient(right, #FFF 1px, transparent 1px);
+	-moz-background-size: 100px;
+	-webkit-background-size: 100px;
+	background-size: 100px;
+	height: 100px;
+	position: absolute;
+	top: -90px;
+	width: 100%;
+}
+
+#viewport #ruler .small {
+  background: -webkit-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -moz-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -o-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -ms-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: linear-gradient(right, #FFF 1px, transparent 1px);
+	-moz-background-size: 10px;
+	-webkit-background-size: 10px;
+	background-size: 10px;
+	display: block;
+	height: 1000px;
+	position: relative;
+	top: -905px;
+	width: 100%;
+} /* End of Required CSS */
+
+/* --- Media Queries: Organized from largest to smallest. --- */
+
+/* Dual Monitors or Dual TVs */
+@media only screen and (min-width: 4097px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "Dual Monitors or Dual TVs: 4097px or greater";
+		left: 15px;
+		line-height: 50px;
+		position: absolute;
+		top: 0;
+	}
+		
+	#viewport { background-color: rgba(0, 0, 0, 1); }
+
+} 
+
+/* 4K */
+@media only screen and (min-width: 2561px) and (max-width: 4096px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "4K ≤ 4096px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+		
+	#viewport { background-color: rgba(175, 160, 75, 1); }
+
+} 
+
+/* WQHD, WQHDA, QSXGA */
+@media only screen and (min-width: 2049px) and (max-width: 2560px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "WQHD, WQHDA, QSXGA ≤ 2560px ";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+		
+	#viewport { background-color: rgba(114, 118, 101, 1); }
+
+} /* End WQHD, WQHDA, QSXGA */
+
+/* QXGA, 2K */
+@media only screen and (min-width: 1921px) and (max-width: 2048px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "QXGA, 2K ≤ 2048px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+		
+	#viewport { background-color: rgba(175, 160, 75, 1); }
+
+}  
+
+/* WUXGA, 1080p */
+@media only screen and (min-width: 1681px) and (max-width: 1920px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "WUXGA, 1080p ≤ 1920px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+		
+	#viewport { background-color: rgba(13, 113, 0, 1); }
+
+} 
+
+/* WSXGA+ */
+@media only screen and (min-width: 1601px) and (max-width: 1680px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "WSXGA+ ≤ 1680px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+		
+	#viewport { background-color: rgba(24, 127, 150, 1); }
+
+} 
+
+/* UXGA */
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "UXGA ≤ 1600px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+		
+	#viewport { background-color: rgba(210, 13, 147, 1); }
+
+} 
+
+/* SXGA+ */
+@media only screen and (min-width: 1281px) and (max-width: 1400px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "SXGA+ ≤ 1400px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+		
+	#viewport { background-color: rgba(156, 75, 175, 1); }
+
+} 
+
+/* SXGA, WXGA, 720p */
+@media only screen and (min-width: 1153px) and (max-width: 1280px) {
+
+	#viewport::before {
+		color: #FFF;
+		content: "SXGA, WXGA, 720p ≤ 1280px";
+	  left: 15px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(28, 102, 176, 1); }
+
+} 
+
+/* XGA+ */
+@media only screen and (min-width: 1025px) and (max-width: 1152px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "XGA+ ≤ 1152px";
+	  left: 15px;
+		position: absolute;
+		top: 0;
+	}
+			
+	#viewport { background-color: rgba(24, 127, 150, 1); }
+
+} 
+
+/* XGA, WSVGA, PAL */
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "XGA, WSVGA, PAL ≤ 1024px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(145, 81, 13, 1); }
+
+} 
+
+/* SVGA */
+@media only screen and (min-width: 641px) and (max-width: 800px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "SVGA ≤ 800px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(204, 115, 20, 1); }
+
+} 
+
+/* VGA */
+@media only screen and (max-width: 640px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "VGA ≤ 640px";
+		left: 15px;
+		min-width: 320px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(186, 10, 15, 1); }
+
+}
