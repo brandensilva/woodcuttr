@@ -71,10 +71,7 @@
 	
 	#viewport::before {
 		color: #FFF;
-		content: "";
-		font-weight: normal;
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
@@ -89,9 +86,7 @@
 	#viewport::before {
 		color: #FFF;
 		content: "↔ Galaxy S III, Galaxy Note I, Galaxy Note II, One X, EVO 4G, Droid Razr Maxx HD, Galaxy Nexus ≤ 1280px";
-		font-weight: normal;
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
@@ -106,9 +101,7 @@
 	#viewport::before {
 		color: #FFF;
 		content: "↔ iPhone 5 ≤ 1136px";
-		font-weight: normal;
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
@@ -123,9 +116,7 @@
 	#viewport::before {
 		color: #FFF;
 		content: "↔ iPhone 4, One S, Droid Razr M, Droid Razr MAXX ≤ 960px";
-		font-weight: normal;
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
@@ -140,9 +131,7 @@
 	#viewport::before {
 		color: #FFF;
 		content: "↔ Lumia 900 ≤ 840px";
-		font-weight: normal;
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
@@ -157,9 +146,7 @@
 	#viewport::before {
 		color: #FFF;
 		content: "↔ Galaxy S II, Venice ↕ Lumia 900, Galaxy Note ≤ 800px";
-		font-weight: normal;
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
@@ -175,9 +162,7 @@
 		color: #FFF;
 		content: "↕ Galaxy S III, Galaxy Note II, One X, EVO 4G, Droid Razr Maxx HD, Galaxy Nexus ≤ 720px";
 		font-size: 12px;
-		font-weight: normal;
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
@@ -192,9 +177,7 @@
 	#viewport::before {
 		color: #FFF;
 		content: "↕ iPhone 4, iPhone 5 ≤ 640px";
-		font-weight: normal;
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
@@ -210,9 +193,7 @@
 		color: #FFF;
 		content: "↕ Droid Razr M, Droid Razr MAXX, One S ≤ 540px";
 		font-size: 14px;
-		font-weight: normal;
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
@@ -227,9 +208,7 @@
 	#viewport::before {
 		color: #FFF;
 		content: "↔ iPhone ↕ Venice ≤ 480px";
-		font-weight: normal;
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
@@ -244,9 +223,7 @@
 	#viewport::before {
 		color: #FFF;
 		content: "↕ iPhone ≤ 320px";
-		font-weight: normal;
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
