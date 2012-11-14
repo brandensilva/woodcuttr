@@ -99,6 +99,10 @@ a:hover, a:active {
 	text-align: center;
 }
 
+#default .default img {
+	padding: 0 20px 0 0;
+}
+
 #download {
 	text-align: center;
 	margin: 0 auto;

@@ -23,7 +23,7 @@ $(window).load(function() {
 
 	} else {
 
-		'test &#8804;' + $sizeinfo.html($(window).width() + 'px &#9666;&#9656;');
+		$sizeinfo.html($(window).width() + 'px &#9666;&#9656;');
 
 	}
 	    
@@ -38,11 +38,11 @@ $(window).load(function() {
 
 		if ($(document).height() > $(window).height() && ($.browser.mozilla || $.browser.msie)) {
 
-			'test &#8804; ' + $sizeinfo.html($(window).width() + offset + 'px &#9666;&#9656;');
+			$sizeinfo.html($(window).width() + offset + 'px &#9666;&#9656;');
 		
 		} else {
 
-			'test &#8804; ' + $sizeinfo.html($(window).width() + 'px &#9666;&#9656;');
+			$sizeinfo.html($(window).width() + 'px &#9666;&#9656;');
 		}
 
   });

@@ -1,0 +1,236 @@
+/* ------------------------------------------------------------
+
+	Originally developed by: CleatsandCode.
+	Modified by: Branden Silva (www.brandensilva.com)
+
+	This file contains only Android mobile and tablet media 
+	queries.
+
+	We highly recommend that you use media query breakpoints 
+	which look best with your content and targets your users. 
+
+	This template is here to get you started but please don't 
+	hesitate to tweak or build your own flavor.
+
+------------------------------------------------------------ */
+
+/* Required Wood Cuttr CSS */
+#viewport {
+	color: #FFF; 
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 15px; 
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	min-width: 320px;
+	position: fixed; 
+	top: 0; 
+	width: 100%; 
+	z-index: 987654321;
+}
+
+#sizeInfo {
+	position: absolute; 
+	right: 15px; 
+}
+
+#viewport #ruler {
+  background: -webkit-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -moz-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -o-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -ms-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: linear-gradient(right, #FFF 1px, transparent 1px);
+	-moz-background-size: 100px;
+	-webkit-background-size: 100px;
+	background-size: 100px;
+	height: 100px;
+	position: absolute;
+	top: -90px;
+	width: 100%;
+}
+
+#viewport #ruler .small {
+  background: -webkit-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -moz-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -o-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: -ms-linear-gradient(right, #FFF 1px, transparent 1px);
+	background: linear-gradient(right, #FFF 1px, transparent 1px);
+	-moz-background-size: 10px;
+	-webkit-background-size: 10px;
+	background-size: 10px;
+	display: block;
+	height: 1000px;
+	position: relative;
+	top: -905px;
+	width: 100%;
+} /* End of Required CSS */
+
+/* --- Media Queries: Organized from largest to smallest. --- */
+
+/* Larger than most current device resolutions on market */
+@media only screen and (min-width: 2561px) {
+	
+	#viewport::before {
+		color: #FFF;
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(0, 0, 0, 1); }
+
+} 
+
+/* Nexus 10 */
+@media only screen and (min-width: 1921px)  and (max-width: 2560px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "↔ Nexus 10 ≤ 2560px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(75, 75, 75, 1); }
+
+} 
+
+/* Transformer Pad Infinity */
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "↔ Transformer Pad Infinity ≤ 1920";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(13, 113, 0, 1); }
+
+} 
+
+/* Nexus 10 */
+@media only screen and (min-width: 1281px) and (max-width: 1600px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "↕ Nexus 10 ≤ 1600px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(24, 127, 150, 1); }
+
+} 
+
+/* Samsung Galaxy S III, Samsung Galaxy Note, Samsung Galaxy Note II, HTC One X, HTC EVO 4G, Motorola Droid Razr Maxx HD, Samsung Galaxy Nexus, Asus Transformer Prime, Asus Transformer Pad, Google Nexus 7, Samsung Galaxy Tab 10.1, Amazon Kindle Fire HD, Motorola Xoom, T-Mobile G-Slate, Sony Tablet S */
+@media only screen and (min-width: 1201px) and (max-width: 1280px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "↔ Galaxy: S III/Note I & II/Tab 10.1/Nexus, One X, EVO 4G, Droid Razr Maxx HD, Transformer Prime/Pad, Nexus 7, Kindle Fire HD, Xoom, G-Slate, Sony Tablet S ≤ 1280px";
+		left: 15px;
+		font-size: 14px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(156, 75, 175, 1); }
+	#sizeInfo { font-size: 14px; position: absolute; right: 15px; }
+
+} 
+
+/* Asus Transformer Pad Infinity */
+@media only screen and (min-width: 961px) and (max-width: 1200px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "↕ Asus Transformer Pad Infinity ≤ 1200px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(28, 102, 176, 1); }
+
+} 
+
+/* HTC One S, Motorola Droid Razr M, Motorola Droid Razr MAXX */
+@media only screen and (min-width: 801px) and (max-width: 960px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "↔ One S, Droid Razr M, Droid Razr MAXX ≤ 960px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(24, 127, 150, 1); }
+
+} 
+
+/* Samsung Galaxy Note, Asus Transformer Prime, Asus Transformer Pad, Google Nexus 7, Samsung Galaxy Tab 10.1, Amazon Kindle Fire HD, Motorola Xoom, T-Mobile G-Slate, Sony Tablet S, Samsung Galaxy S II, LG Venice */
+@media only screen and (min-width: 721px) and (max-width: 800px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "↕ Galaxy: Note/Tab 10.1, Transformer: Prime/Pad, Nexus 7, Kindle Fire HD, Xoom, G-Slate, Tablet S ↔ Galaxy S II, Venice ≤ 800px";
+		font-size: 11px;
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(145, 81, 13, 1); }
+	#sizeInfo { font-size: 11px; position: absolute; right: 15px; }
+} 
+
+/* Samsung Galaxy S III, Samsung Galaxy Note II Portrait, HTC One X, HTC EVO 4G, Motorola Droid Razr Maxx HD, Samsung Galaxy Nexus */
+@media only screen and (min-width: 541px) and (max-width: 720px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "↕ Galaxy: S III/Note II/Nexus, One X, EVO 4G, Droid Razr Maxx HD ≤ 720px";
+		font-size: 12px;
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(28, 102, 176, 1); }
+	#sizeInfo { font-size: 12px; position: absolute; right: 15px; }
+} 
+
+/* Motorola Droid Razr M, Motorola Droid Razr MAXX, HTC One S */
+@media only screen and (min-width: 481px) and (max-width: 540px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "↕ Droid Razr M, Droid Razr MAXX, One S ≤ 540px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(145, 81, 13, 1); }
+
+} 
+
+/* LG Venice */
+@media only screen and (max-width: 480px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "↕ Venice ≤ 480px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(204, 115, 20, 1); }
+
+} 

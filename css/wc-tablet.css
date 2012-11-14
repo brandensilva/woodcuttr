@@ -67,7 +67,7 @@
 /* --- Media Queries: Organized from largest to smallest. --- */
 
 /* Larger than most current phone resolutions on market */
-@media only screen and (min-width: 1281px) {
+@media only screen and (min-width: 2561px) {
 	
 	#viewport::before {
 		color: #FFF;
@@ -80,12 +80,27 @@
 
 } 
 
-/* Samsung Galaxy S III, Samsung Galaxy Note, Samsung Galaxy Note II, HTC One X, HTC EVO 4G, Motorola Droid Razr Maxx HD, Samsung Galaxy Nexus */
-@media only screen and (min-width: 1137px) and (max-width: 1280px) {
+/* Nexus 10 */
+@media only screen and (min-width: 2049px)  and (max-width: 2560px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "↔ Galaxy S III, Galaxy Note I, Galaxy Note II, One X, EVO 4G, Droid Razr Maxx HD, Galaxy Nexus ≤ 1280px";
+		content: "↔ Nexus 10 ≤ 2560px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(75, 75, 75, 1); }
+
+} 
+
+/* iPad 3, iPad 4 */
+@media only screen and (min-width: 1921px) and (max-width: 2048px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "↔ iPad 3, iPad 4 ≤ 2048px";
 		left: 15px;
 		position: absolute;
 		top: 0;
@@ -95,12 +110,12 @@
 
 } 
 
-/* Apple iPhone 5 */
-@media only screen and (min-width: 961px) and (max-width: 1136px) {
+/* Transformer Pad Infinity */
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "↔ iPhone 5 ≤ 1136px";
+		content: "↔ Transformer Pad Infinity ≤ 1920";
 		left: 15px;
 		position: absolute;
 		top: 0;
@@ -110,12 +125,12 @@
 
 } 
 
-/* Apple iPhone 4, HTC One S, Motorola Droid Razr M, Motorola Droid Razr MAXX */
-@media only screen and (min-width: 841px) and (max-width: 960px) {
+/* Nexus 10 */
+@media only screen and (min-width: 1537px) and (max-width: 1600px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "↔ iPhone 4, One S, Droid Razr M, Droid Razr MAXX ≤ 960px";
+		content: "↕ Nexus 10 ≤ 1600px";
 		left: 15px;
 		position: absolute;
 		top: 0;
@@ -125,12 +140,12 @@
 
 } 
 
-/* Nokia Lumia 900 */
-@media only screen and (min-width: 801px) and (max-width: 840px) {
+/* iPad 3, iPad 4 */
+@media only screen and (min-width: 1281px) and (max-width: 1536px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "↔ Lumia 900 ≤ 840px";
+		content: "↕ iPad 3, iPad 4 ≤ 1536px";
 		left: 15px;
 		position: absolute;
 		top: 0;
@@ -140,12 +155,12 @@
 
 } 
 
-/* Nokia Lumia 900, Samsung Galaxy S II, Samsung Galaxy Note, LG Venice */
-@media only screen and (min-width: 721px) and (max-width: 800px) {
+/* Asus Transformer Prime, Asus Transformer Pad, Google Nexus 7, Samsung Galaxy Tab 10.1, Amazon Kindle Fire HD, Motorola Xoom, T-Mobile G-Slate, Sony Tablet S */
+@media only screen and (min-width: 1201px) and (max-width: 1280px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "↔ Galaxy S II, Venice ↕ Lumia 900, Galaxy Note ≤ 800px";
+		content: "↔ Transformer Prime/Pad, Nexus 7, Galaxy Tab 10.1, Kindle Fire HD, Xoom, G-Slate, Sony Tablet S ≤ 1280px";
 		left: 15px;
 		position: absolute;
 		top: 0;
@@ -155,28 +170,27 @@
 
 } 
 
-/* Samsung Galaxy S III, Samsung Galaxy Note II Portrait, HTC One X, HTC EVO 4G, Motorola Droid Razr Maxx HD, Samsung Galaxy Nexus */
-@media only screen and (min-width: 641px) and (max-width: 720px) {
+/* Asus Transformer Pad Infinity */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "↕ Galaxy S III, Galaxy Note II, One X, EVO 4G, Droid Razr Maxx HD, Galaxy Nexus ≤ 720px";
-		font-size: 12px;
+		content: "↕ Asus Transformer Pad Infinity ≤ 1200px";
 		left: 15px;
 		position: absolute;
 		top: 0;
 	}
 
 	#viewport { background-color: rgba(28, 102, 176, 1); }
-	#sizeInfo { font-size: 12px; position: absolute; right: 15px; }
+
 } 
 
-/* Apple iPhone 4, Apple iPhone 5 */
-@media only screen and (min-width: 541px) and (max-width: 640px) {
+/* iPad, iPad Mini, Blackberry Playbook */
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "↕ iPhone 4, iPhone 5 ≤ 640px";
+		content: "↔ iPad, iPad Mini, Blackberry Playbook ≤ 1024px";
 		left: 15px;
 		position: absolute;
 		top: 0;
@@ -186,12 +200,13 @@
 
 } 
 
-/* Motorola Droid Razr M, Motorola Droid Razr MAXX, HTC One S */
-@media only screen and (min-width: 481px) and (max-width: 540px) {
+/* Asus Transformer Prime, Asus Transformer Pad, Google Nexus 7, Samsung Galaxy Tab 10.1, Amazon Kindle Fire HD, Motorola Xoom, T-Mobile G-Slate, Sony Tablet S */
+@media only screen and (min-width: 769px) and (max-width: 800px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "↕ Droid Razr M, Droid Razr MAXX, One S ≤ 540px";
+		content: "↕ Transformer Prime/Pad, Nexus 7, Galaxy Tab 10.1, Kindle Fire HD, Xoom, G-Slate, Sony Tablet S ≤ 800px";
+		font-size: 14px;
 		left: 15px;
 		position: absolute;
 		top: 0;
@@ -201,12 +216,12 @@
 
 } 
 
-/* Apple iPhone, LG Venice */
-@media only screen and (min-width: 321px) and (max-width: 480px) {
+/* iPad, iPad Mini, G-Slate */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "↔ iPhone ↕ Venice ≤ 480px";
+		content: "↕ iPad, iPad Mini, G-Slate ≤ 768px";
 		left: 15px;
 		position: absolute;
 		top: 0;
@@ -216,12 +231,12 @@
 
 } 
 
-/* Apple iPhone */
-@media only screen and (max-width: 320px) {
+/* Blackberry Playbook */
+@media only screen and (max-width: 600px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "↕ iPhone ≤ 320px";
+		content: "↕ Blackberry Playbook ≤ 600px";
 		left: 15px;
 		position: absolute;
 		top: 0;
