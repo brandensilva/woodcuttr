@@ -242,7 +242,7 @@
 	
 	#viewport::before {
 		color: #FFF;
-		content: "↕Mobile ≤ 320px";
+		content: "↕ Mobile ≤ 320px";
 		left: 15px;
 		position: absolute;
 		top: 0;
