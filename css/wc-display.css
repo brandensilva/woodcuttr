@@ -256,7 +256,6 @@
 		color: #FFF;
 		content: "VGA ≤ 640px";
 		left: 15px;
-		min-width: 320px;
 		position: absolute;
 		top: 0;
 	}

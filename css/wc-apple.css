@@ -17,7 +17,6 @@
 /* Required Wood Cuttr CSS */
 #viewport {
 	color: #FFF; 
-	display: none;
 	font-family: Helvetica, Arial, sans-serif; 
 	font-size: 15px; 
 	height: 50px;
@@ -68,274 +67,241 @@
 
 /* --- Media Queries: Organized from largest to smallest. --- */
 
-/* Dual Monitors */
+/* Larger than most current resolutions on market */
 @media only screen and (min-width: 2801px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "Dual Monitors: 2801px or greater";
-		font-weight: normal;
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 
 	#viewport { background-color: rgba(0, 0, 0, 1); }
 
-} /* End Dual Monitors */
+} 
 
-/* 15.4-inch MacBook Pro Retina */
+/* Apple 15.4-inch MacBook Pro Retina */
 @media only screen and (min-width: 2561px) and (max-width: 2800px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "15.4-inch MacBook Pro Retina: 2561px - 2800px";
-		font-weight: normal;
+		content: "15.4-inch MacBook Pro Retina ≤ 2800px";
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 
-	#viewport { background-color: rgba(0, 0, 0, 1); }
+	#viewport { background-color: rgba(197, 179, 93, 1); }
 
 } /* End 15.4-inch MacBook Pro Retina */
 
-/* 27-inch iMac, 13.3-inch MacBook Pro Retina */
+/* Apple 27-inch iMac, Apple 13.3-inch MacBook Pro Retina */
 @media only screen and (min-width: 2049px) and (max-width: 2560px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "27-inch iMac, 13.3-inch MacBook Pro Retina: 2049px - 2560px";
-		font-weight: normal;
+		content: "27-inch iMac, 13.3-inch MacBook Pro Retina ≤ 2560px";
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 
-	#viewport { background-color: rgba(175, 160, 75, 1); }
+	#viewport { background-color: rgba(75, 75, 75, 1); }
 
-} /* End 27-inch iMac, 13.3-inch MacBook Pro Retina */
+} 
 
-/* iPad Retina Landscape */
+/* Apple iPad Retina */
 @media only screen and (min-width: 1921px) and (max-width: 2048px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "iPad Retina Landscape: 1921px - 2048px";
-		font-weight: normal;
+		content: "iPad Retina ≤ 2048px";
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 
-	#viewport { background-color: rgba(13, 113, 0, 1); }
+	#viewport { background-color: rgba(6, 49, 159, 1); }
 
-} /* End iPad Retina Landscape */
+} 
 
-/* 21.5-inch iMac */
+/* Apple 21.5-inch iMac */
 @media only screen and (min-width: 1537px) and (max-width: 1920px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "21.5-inch iMac: 1537px - 1920px";
-		font-weight: normal;
+		content: "21.5-inch iMac ≤ 1920px";
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 
-	#viewport { background-color: rgba(24, 127, 150, 1); }
+	#viewport { background-color: rgba(94, 102, 48, 1); }
 
-} /* End 21.5-inch iMac */
+} 
 
 /* 13.3-inch MacBook Pro Retina */
 @media only screen and (min-width: 1537px) and (max-width: 1600px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "13.3-inch MacBook Pro Retina: 1537px - 1600px";
-		font-weight: normal;
+		content: "13.3-inch MacBook Pro Retina ≤ 1600px";
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 
-	#viewport { background-color: rgba(210, 13, 147, 1); }
+	#viewport { background-color: rgba(123, 110, 182, 1); }
 
-} /* End 13.3-inch MacBook Pro Retina */
+} 
 
-/* iPad Retina Portrait */
+/* Apple iPad Retina */
 @media only screen and (min-width: 1441px) and (max-width: 1536px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "iPad Retina Portrait: 1441px - 1536px";
-		font-weight: normal;
+		content: "iPad Retina ≤ 1536px";
 		left: 15px;
-		line-height: 50px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(175, 160, 75, 1); }
+
+} 
+
+/* Apple 15.4-inch MacBook Pro */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "15.4-inch MacBook Pro ≤ 1440px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(13, 113, 0, 1); }
+
+} 
+
+/* Apple 13.3-inch MacBook Pro */
+@media only screen and (min-width: 1137px) and (max-width: 1280px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "13.3-inch MacBook Pro ≤ 1280px";
+		left: 15px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(182, 125, 110, 1); }
+
+} 
+
+/* Apple iPhone 5 */
+@media only screen and (min-width: 1025px) and (max-width: 1136px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "iPhone 5  ≤ 1136px";
+		left: 15px;
 		position: absolute;
 		top: 0;
 	}
 
 	#viewport { background-color: rgba(210, 13, 147, 1); }
 
-} /* End iPad Retina Portrait */
+} 
 
-/* 15.4-inch MacBook Pro */
-@media only screen and (min-width: 1281px) and (max-width: 1440px) {
-	
-	#viewport::before {
-		color: #FFF;
-		content: "15.4-inch MacBook Pro: 1281px - 1440px";
-		font-weight: normal;
-		left: 15px;
-		line-height: 50px;
-		position: absolute;
-		top: 0;
-	}
-
-	#viewport { background-color: rgba(156, 75, 175, 1); }
-
-} /* End 15.4-inch MacBook Pro */
-
-/* 13.3-inch MacBook Pro */
-@media only screen and (min-width: 1137px) and (max-width: 1280px) {
-	
-	#viewport::before {
-		color: #FFF;
-		content: "13.3-inch MacBook Pro: 1137px - 1280px";
-		font-weight: normal;
-		left: 15px;
-		line-height: 50px;
-		position: absolute;
-		top: 0;
-	}
-
-	#viewport { background-color: rgba(156, 75, 175, 1); }
-
-} /* End 13.3-inch MacBook Pro */
-
-/* iPhone 5 Landscape */
-@media only screen and (min-width: 1025px) and (max-width: 1136px) {
-	
-	#viewport::before {
-		color: #FFF;
-		content: "iPhone 5 Landscape: 1025px - 1136px";
-		font-weight: normal;
-		left: 15px;
-		line-height: 50px;
-		position: absolute;
-		top: 0;
-	}
-
-	#viewport { background-color: rgba(156, 75, 175, 1); }
-
-} /* End iPhone 5 Landscape */
-
-/* iPad, iPad Mini Landscape */
+/* Apple iPad, Apple iPad Mini */
 @media only screen and (min-width: 961px) and (max-width: 1024px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "iPad Landscape: 961px - 1024px";
-		font-weight: normal;
+		content: "iPad  ≤ 1024px";
 		left: 15px;
-		line-height: 50px;
+		position: absolute;
+		top: 0;
+	}
+
+	#viewport { background-color: rgba(156, 75, 175, 1); }
+
+} 
+
+/* Apple iPhone 4 */
+@media only screen and (min-width: 769px) and (max-width: 960px) {
+	
+	#viewport::before {
+		color: #FFF;
+		content: "iPhone 4  ≤ 960px";
+		left: 15px;
 		position: absolute;
 		top: 0;
 	}
 
 	#viewport { background-color: rgba(28, 102, 176, 1); }
 
-} /* End iPad, iPad Mini Landscape */
+} 
 
-/* iPhone 4 Landscape */
-@media only screen and (min-width: 769px) and (max-width: 960px) {
+/* Apple iPad, Apple iPad Mini */
+@media only screen and (min-width: 641px) and (max-width: 768px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "iPhone 4 Landscape: 769px - 960px";
-		font-weight: normal;
+		content: "iPad  ≤ 768px";
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 
 	#viewport { background-color: rgba(24, 127, 150, 1); }
 
-} /* End iPhone 4 Landscape */
+} 
 
-/* iPad, iPad Mini Portrait */
-@media only screen and (min-width: 641px) and (max-width: 768px) {
-	
-	#viewport::before {
-		color: #FFF;
-		content: "iPad Portrait: 641px - 768px";
-		font-weight: normal;
-		left: 15px;
-		line-height: 50px;
-		position: absolute;
-		top: 0;
-	}
-
-	#viewport { background-color: rgba(145, 81, 13, 1); }
-
-} /* End iPad, iPad Mini Portrait */
-
-/* iPhone 4 & iPhone 5 Portrait */
+/* Apple iPhone 4, Apple iPhone 5 */
 @media only screen and (min-width: 481px) and (max-width: 640px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "iPhone 4 & iPhone 5 Portrait: 481px - 640px";
-		font-weight: normal;
+		content: "↕ iPhone 4, iPhone 5 ≤ 640px";
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 
 	#viewport { background-color: rgba(145, 81, 13, 1); }
 
-} /* End iPhone 4 & iPhone 5 Portrait */
+}
 
-/* iPhone Landscape */
+/* Apple iPhone */
 @media only screen and (min-width: 321px) and (max-width: 480px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "iPhone Landscape: 321px - 480px";
-		font-weight: normal;
+		content: "↔ iPhone ≤ 480px";
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 
 	#viewport { background-color: rgba(204, 115, 20, 1); }
 
-} /* End iPhone Landscape */
+}
 
-/* iPhone Portrait */
+/* Apple iPhone */
 @media only screen and (max-width: 320px) {
 	
 	#viewport::before {
 		color: #FFF;
-		content: "iPhone Portrait: 0 < 320px";
-		font-weight: normal;
+		content: "↕ iPhone ≤ 320px";
 		left: 15px;
-		line-height: 50px;
 		position: absolute;
 		top: 0;
 	}
 
 	#viewport { background-color: rgba(186, 10, 15, 1); }
 
-} /* End iPhone Portrait */
+}
