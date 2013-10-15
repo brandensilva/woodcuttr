@@ -9,7 +9,11 @@ $(window).load(function() {
 
 	$('body').prepend("<div id='viewport'><div id='ruler'><span class='small'></span></div><div id='sizeInfo'></div></div>");
 
-	offset = 15;
+
+	/* Offsets used for inconsistent browser view port calculations */
+	webkitoffset = 15;
+	offset = 17;
+	
 	$viewport = $('#viewport');
 	$sizeinfo = $('#sizeInfo');
 	$spacer = $('<div />').css('height', $viewport.outerHeight());
@@ -23,7 +27,7 @@ $(window).load(function() {
 
 	} else {
 
-		$sizeinfo.html($(window).width() + 'px &#9666;&#9656;');
+		$sizeinfo.html($(window).width() + webkitoffset + 'px &#9666;&#9656;');
 
 	}
 	    
@@ -42,7 +46,7 @@ $(window).load(function() {
 		
 		} else {
 
-			$sizeinfo.html($(window).width() + 'px &#9666;&#9656;');
+			$sizeinfo.html($(window).width() + webkitoffset + 'px &#9666;&#9656;');
 		}
 
   });
