@@ -214,6 +214,16 @@ img {
 }
 
 @media only screen and (max-width: 480px) {
+
+	p {
+		font-size: 0.6em !important;
+	}
+
+	h3 {
+		font-size: 0.7em !important;
+		padding: 10px 0 !important;
+	}
+
 	header {
 		height: 199px !important;
 	}
@@ -258,11 +268,6 @@ img {
 		font-size: 0.5em !important;
 	}
 
-	h3 {
-		font-size: 0.9em !important;
-		padding: 10px 0 !important;
-	}
-
 	#popular, #modes, #clutter, #colorful, #default {
 		padding: 0 !important;
 	}
@@ -270,6 +275,10 @@ img {
 	#download {
 		margin-top: 10px !important;
 		min-width: 320px !important;
+	}
+
+	#download a {
+		font-size: 0.6em !important;
 	}
 
 }
